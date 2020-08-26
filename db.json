@@ -1,0 +1,99 @@
+{
+  "PotentialCustomer": {
+    "Potential_cust_data": [
+      {
+        "Id": "1",
+        "Name": "Mihlosevic",
+        "ClassId": "1",
+        "RequestValidity": "True",
+        "RequestResponse": "True"
+      }
+    ],
+    "Risk_classes": [
+      {
+        "Id": "1",
+        "Name": "Terrorist",
+        "MinValue": "NULL",
+        "MaxValue": "NULL"
+      }
+    ],
+    "User_info": [
+      {
+        "UserId": "1",
+        "UserName": "DVader",
+        "Password": "NULL",
+        "UserType": "Admin"
+      },
+      {
+        "UserId": "2",
+        "UserName": "KyloRen",
+        "Password": "NULL",
+        "UserType": "Admin"
+      }
+    ],
+    "Model_list": [
+      {
+        "Code": "DummyModel",
+        "Name": "RiskName",
+        "Description": "Dummy Risk Model",
+        "CreatedBy": "DVader",
+        "CreateDate": "2010-11-24T00:00:00.000",
+        "LastModifyBy": "KyloRen"
+      }
+    ],
+    "Risk_item_list": [
+      {
+        "RiskItemCode": "BsnItm1",
+        "ModelCode": "DummyModel",
+        "CreatedBy": "DVader",
+        "CreateDate": "2011-04-12T00:00:00.000",
+        "LastModifyBy": "KyloRen"
+      },
+      {
+        "RiskItemCode": "12",
+        "ModelCode": "DummyModel",
+        "CreatedBy": "KyloRen",
+        "CreateDate": "2012-05-12T00:00:00.000",
+        "LastModifyBy": "Dvader"
+      }
+    ],
+    "Risk_items": [
+      {
+        "Code": "BsnItm1",
+        "Name": "Business Item 1",
+        "Description": "Business Item 1 blah blah",
+        "Weight": "10",
+        "CreatedBy": "User",
+        "CreateDate": "2011-04-12T00:00:00.000"
+      },
+      {
+        "Code": "12",
+        "Name": "Theft_Risk",
+        "Description": "GTA",
+        "Weight": "10",
+        "CreatedBy": "KyloRen",
+        "CreateDate": "2012-05-12T00:00:00.000"
+      }
+    ],
+    "Risk_item_values": [
+      {
+        "Id": "1",
+        "RiskItemCode": "BsnItm1",
+        "Value": "40",
+        "Score": "100",
+        "CreatedBy": "DVader",
+        "CreateDate": "2011-04-12T00:00:00.000",
+        "LastModifyBy": "KyloRen"
+      },
+      {
+        "Id": "2",
+        "RiskItemCode": "12",
+        "Value": "60",
+        "Score": "100",
+        "CreatedBy": "KyloRen",
+        "CreateDate": "2012-05-12T00:00:00.000",
+        "LastModifyBy": "DVader"
+      }
+    ]
+  }
+}
